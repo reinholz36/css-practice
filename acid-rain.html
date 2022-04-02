@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="cssbattle">
+    <div class="same circle1"></div>
+    <div class="same circle2"></div>
+    <div class="same circle3"></div>
+</div>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        /* position: absolute; */
+        height: 300px;
+        width: 400px;
+    }
+    .cssbattle {
+        /* position: absolute; */
+        height: 300px;
+        width: 400px;
+        background:#0B2429;
+    }
+ 
+  .same {
+    width: 120px;
+    height: 120px;
+    position: relative;
+  }
+  .circle1{
+    background: #F3AC3C;
+    border-radius: 100%;
+    left: 192px;
+    top: 22px;
+    z-index: 1;
+  }
+    .circle2{
+    background: #998235;
+    border-radius: 100% 0 100% 100%;
+    left: 132px;
+    top: -38px;
+    z-index: 2;
+  }
+    .circle3{
+    background: #F3AC3C;
+    border-radius: 100% 0 100% 100%;
+    left: 72px;
+    top: -98px;
+    z-index: 3;
+  }
+  
+  
+</style>
+
+</body>
+</html>
